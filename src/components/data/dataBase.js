@@ -14,7 +14,7 @@ export function Games() {
               <img alt={post.image} src={require(`../../assets/img-games/${post.image}`).default} />
               <div className="priceAndButton">
                 <h2>{ post.price } $</h2>
-                <button onClick={  }>+</button>
+                <button>+</button>
               </div>
           </div>
         )
