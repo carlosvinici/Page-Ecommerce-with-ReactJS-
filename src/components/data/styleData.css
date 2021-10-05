@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.styleComponentGames {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70vw;
+    height: 70vw;
+
+    background-color: rgb(255, 255, 255);
+    
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 360px;
+    margin: 15px;
+
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.589);
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.cards h1 {
+    font-size: 14pt;
+    padding: 20px;
+}
+.cards h2 {
+    font-size: 12pt;
+    padding: 20px;
+}
+.cards button {
+    font-size: 20px;
+    font-weight: bolder;
+
+    background-color: rgba(13, 173, 13, 0.705);
+    color: white;
+    border: none;
+
+    padding: 0px 110px 0px 110px;
+}
+.cards button:active {
+    box-shadow: rgb(204, 219, 232) 1px 2px 2px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 4px 1px inset;
+}
